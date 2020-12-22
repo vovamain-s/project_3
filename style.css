@@ -1,0 +1,97 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	border-bottom:2px solid #707070;
+	border-radius:3px;
+	opacity: 0.8;
+}
+
+.nav_settings1 {
+	background-color:#42313a;
+	padding:10px;
+}
+
+.menu{
+	display:flex;
+	flex-flow:row;
+	padding:0;
+	justify-content:space-around;
+	font-weight:600;
+}
+.menu li {
+	padding:10px;
+}
+.name {
+	display:block;
+	margin-right:auto;
+}
+.header{
+	width:100%;
+	background-image:url('https://cameralabs.org/media/camera/avgust/26avgust/53_a4f04cbf94fa897b52dae152ec2d1e94.jpg');
+    background-size:cover;
+    height:400px;
+    text-align:center;
+    padding-top:50px;
+}
+.header img{
+	border-radius:50%;
+	border:2px solid #000;
+    width:144px;
+    height:144px;
+}
+h1{
+    background-color:#f1dcc9;
+    display:table;
+    margin:10px auto;
+    padding:8px;
+    border-radius:10px;
+}
+.my_age{
+	background-color:#6c2d2c;
+	color:#fff;
+	border-radius:10px;
+	display:table;
+	margin:10px auto;
+	padding:8px;
+}
+.TEXT{
+	display:flex;
+	flex-flow:row;
+}
+.about_me{
+    max-width:500px;
+    margin:0 auto;
+    border-bottom:3px solid #707070;
+    border-radius:5px;
+    height:320px;
+}
+.my_purpose{
+	max-width:500px;
+	margin:0 auto;
+	border-bottom:3px solid #707070;
+	border-radius:5px;
+    height:395px;
+}
+h2{
+	background-color:#6c2d2c;
+    display:table;
+    margin:10px auto;
+    padding:8px;
+    border-radius:10px;
+    color:#fff;
+}
+p{
+	background-color:#f1dcc9;
+	border-radius:6px;
+}
