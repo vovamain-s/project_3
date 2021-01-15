@@ -10,24 +10,24 @@ ul {
 a {
 	text-decoration:none;
 	color:white;
+	transition:padding 0.3s ease;
 }
 a:hover{
 	border-bottom:2px solid #707070;
 	border-radius:3px;
-	opacity: 0.8;
+    padding:8px;
 }
 
 .nav_settings1 {
 	background-color:#42313a;
 	padding:10px;
 }
-
 .menu{
 	display:flex;
 	flex-flow:row;
-	padding:0;
+	padding:0px;
 	justify-content:space-around;
-	font-weight:600;
+	font-weight:600px;
 }
 .menu li {
 	padding:10px;
@@ -49,6 +49,11 @@ a:hover{
 	border:2px solid #000;
     width:144px;
     height:144px;
+    transition:padding 0.2s ease;
+}
+.header img:hover{
+    padding:1px;
+    background-color:#000;
 }
 h1{
     background-color:#f1dcc9;
@@ -56,6 +61,10 @@ h1{
     margin:10px auto;
     padding:8px;
     border-radius:10px;
+    transition:padding 0.3s ease;
+}
+h1:hover{
+	padding:14px;
 }
 .my_age{
 	background-color:#6c2d2c;
@@ -64,6 +73,10 @@ h1{
 	display:table;
 	margin:10px auto;
 	padding:8px;
+	transition:padding 0.3s ease;
+}
+.my_age:hover{
+    padding:13px;
 }
 .TEXT{
 	display:flex;
@@ -90,6 +103,10 @@ h2{
     padding:8px;
     border-radius:10px;
     color:#fff;
+    transition:padding 0.3s ease;
+}
+h2:hover{
+	padding:14px;
 }
 p{
 	background-color:#f1dcc9;
