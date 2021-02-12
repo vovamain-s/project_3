@@ -112,3 +112,38 @@ p{
 	background-color:#f1dcc9;
 	border-radius:6px;
 }
+
+@media screen and (max-width:414px){
+
+	p{
+		margin-right:6px;
+		margin-left:4px;
+	}
+
+	.adapt1{
+		margin-left:4px;
+		margin-right:6px;
+	}
+
+	.my_purpose{
+        margin-right:4px;
+	}
+
+}
+
+@media screen and (max-width:736px){
+     p{
+        margin:6px;
+     }
+}
+
+@media screen and (max-width:768px){
+     p{
+        margin:6px;
+     }
+}
+
+@media screen and (max-width:812px){
+     p{
+     	margin:6px;
+     }
